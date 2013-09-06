@@ -216,10 +216,19 @@ form.contacto button:hover{
 
 }
 @media screen and (max-width: 615px ){
+	form.contacto
+	{
+		width: 90%;
+	}
 	nav ul li
 	{
 		display: block;
 		
+	}
+	#carta
+	{
+		width: 90%;
+
 	}
 	#video
 	{
@@ -229,7 +238,7 @@ form.contacto button:hover{
 
 }
 @media screen and (max-width: 330px ){
-	#video
+	form.contacto
 	{
 		width: 100%;
 	}
@@ -237,7 +246,12 @@ form.contacto button:hover{
 	{
 		width: 100%;
 
+	}	
+	#video
+	{
+		width: 100%;
 	}
+
 	#map
 	{
 		width: 100%;
